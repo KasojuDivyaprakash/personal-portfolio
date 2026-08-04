@@ -1,4 +1,4 @@
-# Manoj Portfolio
+# FUTURE_FS_01
 
 A premium dark portfolio website built with React, TypeScript, Tailwind CSS, Framer Motion, and Vite.
 
@@ -19,14 +19,9 @@ npm run build
 
 ### GitHub Pages
 
-1. Create a GitHub repository.
-2. Run:
-
-```bash
-npm run build
-```
-
-3. Upload the contents of the dist folder to the repository or configure a static hosting workflow.
+1. Push to GitHub.
+2. Enable GitHub Pages from repository settings using the `main` branch and `/root` folder.
+3. Use the generated site URL for LinkedIn.
 
 ### Vercel
 
@@ -38,5 +33,5 @@ npm run build
 
 - Update personal details in `src/constants/content.ts`.
 - Update projects in the same file.
+- Add or update cover images in `public/`.
 - Replace the placeholder GitHub link in `src/constants/content.ts` when ready.
-- Add a real resume PDF to the public folder and update the download link in `src/App.tsx`.
