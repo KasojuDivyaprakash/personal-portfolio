@@ -20,8 +20,12 @@ npm run build
 ### GitHub Pages
 
 1. Push to GitHub.
-2. Enable GitHub Pages from repository settings using the `main` branch and `/root` folder.
-3. Use the generated site URL for LinkedIn.
+2. Enable GitHub Pages from repository settings using the `gh-pages` branch and `/root` folder.
+3. Use the live site URL below once the workflow completes.
+
+**Live site:** https://manojnalmas.github.io/FUTURE_FS_01/
+
+> The automated deployment workflow will publish the site after each push. If the site is not active immediately, wait a few minutes for GitHub Pages to finish deploying.
 
 ### Vercel
 
