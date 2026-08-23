@@ -92,7 +92,7 @@ const App = () => {
 
       <header className="sticky top-0 z-50 border-b border-white/10 bg-midnight/80 backdrop-blur-xl">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
-          <a href="#home" className="text-lg font-semibold tracking-[0.3em] text-white">NM</a>
+          <a href="#home" className="text-lg font-semibold tracking-[0.3em] text-white">DP</a>
           <div className="hidden items-center gap-8 md:flex">
             {navItems.map((item) => (
               <a key={item} href={`#${item.toLowerCase()}`} className="text-sm text-slate-300 transition hover:text-primary">
@@ -127,6 +127,13 @@ const App = () => {
         <section className="relative overflow-hidden px-6 py-24 lg:px-8 lg:py-32">
           <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,_rgba(99,102,241,0.25),_transparent_40%),radial-gradient(circle_at_bottom_right,_rgba(6,182,212,0.2),_transparent_35%)]" />
           <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[1.1fr_0.9fr]">
+            <div className="flex justify-center lg:justify-end">
+              <img
+                src="/FUTURE_FS_01/profile.jpg"
+                alt="Kasoju DivyaPrakash"
+                className="h-72 w-72 rounded-full border-4 border-primary/40 object-cover shadow-glow"
+              />
+            </div>
             <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }}>
               <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-2 text-sm text-primary">
                 <HiSparkles /> <span>Available for opportunities</span>
@@ -338,7 +345,7 @@ const App = () => {
 
       <footer className="border-t border-white/10 px-6 py-8 lg:px-8">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 sm:flex-row">
-          <p className="text-sm text-slate-400">© 2026 Nalumachu Manoj. Crafted with modern design.</p>
+          <p className="text-sm text-slate-400">© 2026 KASOJU DIVYAPRAKASH. Crafted with modern design.</p>
           <div className="flex items-center gap-3">
             <a href={personalInfo.linkedin} target="_blank" rel="noreferrer" className="rounded-full border border-white/10 bg-white/10 p-2"><FaLinkedin /></a>
             <a href={personalInfo.github} target="_blank" rel="noreferrer" className="rounded-full border border-white/10 bg-white/10 p-2"><FaGithub /></a>

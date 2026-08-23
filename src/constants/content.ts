@@ -1,81 +1,102 @@
 export const personalInfo = {
-  name: 'Nalumachu Manoj',
+  name: 'Kasoju DivyaPrakash',
   role: 'Aspiring Software Developer',
   location: 'Hyderabad, Telangana',
-  email: 'manojnalmas@gmail.com',
-  phone: '9059176024',
-  linkedin: 'https://linkedin.com/in/manoj-nalumachu-80aa84384',
-  github: 'https://github.com/manojnalmas',
+  email: 'kasojuprakash49@gmail.com',
+  phone: '9014371057',
+  linkedin: 'https://www.linkedin.com/in/kasoju-divya-prakash-296a6a365',
+  github: 'https://github.com/KasojuDivyaprakash',
   summary:
-    'Aspiring Software Developer with a strong foundation in HTML, CSS, JavaScript, MySQL, and PostgreSQL. Experienced in building responsive web applications through academic and personal projects with a focus on clean design and efficient functionality.',
+    'Aspiring Software Developer with a strong foundation in HTML, CSS, JavaScript, MySQL, and C. Experienced in building responsive web applications through academic and personal projects with a focus on clean design and efficient functionality.',
 }
 
 export const skills = [
   {
-    title: 'Frontend',
+    title: 'Programming',
     items: [
-      { name: 'HTML', level: 92 },
-      { name: 'CSS', level: 90 },
-      { name: 'JavaScript', level: 88 },
+      { name: 'C', level: 85 },
+      { name: 'Python', level: 80 },
+      { name: 'Java', level: 70 },
     ],
   },
   {
-    title: 'Backend',
+    title: 'Web Development',
     items: [
-      { name: 'Programming', level: 85 },
-      { name: 'Web APIs', level: 78 },
+      { name: 'HTML', level: 90 },
+      { name: 'CSS', level: 85 },
+      { name: 'JavaScript', level: 80 },
     ],
   },
   {
-    title: 'Database',
+    title: 'IoT & Embedded',
     items: [
-      { name: 'MySQL', level: 84 },
-      { name: 'PostgreSQL', level: 80 },
+      { name: 'Arduino', level: 85 },
+      { name: 'ESP32', level: 80 },
+      { name: 'IoT', level: 85 },
     ],
   },
   {
-    title: 'Tools',
+    title: 'Database & Tools',
     items: [
-      { name: 'Git', level: 86 },
-      { name: 'GitHub', level: 84 },
+      { name: 'MySQL', level: 80 },
+      { name: 'Git', level: 80 },
+      { name: 'GitHub', level: 85 },
       { name: 'VS Code', level: 90 },
-      { name: 'Excel', level: 82 },
     ],
   },
 ]
 
 export const projects = [
   {
-    title: 'Fresh Mart',
-    description: 'Responsive grocery store website featuring product showcases, carts, and a premium shopping experience.',
-    tech: ['HTML', 'CSS', 'JavaScript'],
-    github: 'https://github.com/manojnalmas/fresh-mart.git',
-    liveDemo: 'https://manojnalmas.github.io/fresh-mart/',
-    coverImage: '/fresh-mart-cover.svg',
+    title: 'Voice based AI brain module for Robotics System',
+    description: 'A voice-powered AI brain module that enables robots to understand spoken commands, make intelligent decisions, and perform tasks autonomously.',
+    tech: ['Python', 'NLP', 'TTS', 'Speech Recognition'],
+    github: 'DONT HAVE',
+    liveDemo: 'Dont have',
+    coverImage: 'src/assets/robo.png',
   },
   {
-    title: 'LearnHub',
-    description: 'Responsive e-learning platform with clean UI, course sections, and an engaging educational flow.',
-    tech: ['HTML', 'CSS', 'JavaScript'],
-    github: 'https://github.com/manojnalmas/LearnHub.git',
-    liveDemo: 'https://manojnalmas.github.io/LearnHub/',
-    coverImage: '/learnhub-cover.svg',
+    title: 'industries equipment management system',
+    description: 'A comprehensive solution for managing and tracking industrial equipment, ensuring optimal utilization and maintenance schedules.',
+    tech: ['Python', 'MQTT', 'MySQL', 'React'],
+    github: 'dont have',
+    liveDemo: 'dont have',
+    coverImage: 'src/assets/industry.png',
+  },
+   {
+    title: 'Personal Finance Management Platform',
+    description: 'A personal finance platform designed to help users manage expenses, track finances, and organize their financial information.',
+    tech: ['Web Development', 'Database', 'AI'],
+    github: 'dont have',
+    liveDemo: 'dont have',
+    coverImage: 'src/assets/finance.png',
+  },
+   {
+    title: 'Automatic Railway Gate Control',
+    description: 'Automated railway gate control system designed to improve safety by controlling the gate based on train detection.',
+    tech: ['Arduino', 'Embedded Systems', 'Sensors'],
+    github: 'dont have',
+    liveDemo: 'dont have',
+    coverImage: 'src/assets/rail.png',
   },
 ]
 
 export const certifications = [
-  { title: 'AWS Skill Builder', issuer: 'AWS' },
-  { title: 'Foundations of Prompt Engineering', issuer: 'Anthropic' },
-  { title: 'Claude 101', issuer: 'Anthropic' },
-  { title: 'TCS iON YUVA AI For All', issuer: 'TCS iON' },
-  { title: 'SQL Certification', issuer: 'HackerRank' },
-  { title: 'Python Certification', issuer: 'Intellipaat' },
-  { title: 'Excel Certification', issuer: 'Intellipaat' },
+  { title: 'CMDB and CSDM', issuer: 'SERVICENOW' },
+  { title: 'MICRO CERTIFICATION', issuer: 'SERVICENOW' },
+  { title: 'AI SKILLS PASSPORT', issuer: 'EY and MICROSOFT' },
+  { title: 'Data Analytics Essentials', issuer: 'Cisco Networking Academy' },
+  { title: 'Introduction to Modern AI', issuer: 'Cisco Networking Academy' },
+  { title: 'Agentic AI Certified Foundations Associate', issuer: 'oracle university' },
+  { title: 'Data Analytics Essentials with python', issuer: 'Cisco Networking Academy' },
+  { title: 'Python Essentials 1', issuer: 'Cisco Networking Academy' },
+  { title: 'Introduction to Cybersecurity', issuer: 'Cisco Networking Academy' },
+  { title: 'C++ Essentials 1', issuer: 'Cisco Networking Academy' },
 ]
 
 export const achievements = [
-  { value: '2+', label: 'Projects Completed' },
-  { value: '7+', label: 'Certifications' },
+  { value: '4+', label: 'Projects Completed' },
+  { value: '10+', label: 'Certifications' },
   { value: '10+', label: 'Technologies Learned' },
   { value: '500+', label: 'Coding Hours' },
 ]
@@ -86,4 +107,5 @@ export const services = [
   { title: 'Responsive Website Design', description: 'Designing elegant digital experiences suited to every screen size.' },
   { title: 'UI Development', description: 'Turning product ideas into immersive and intuitive interfaces.' },
   { title: 'Future Full Stack Development', description: 'Preparing scalable applications for modern product teams and startups.' },
+  { title: 'Tableau Certification', issuer: 'Tableau' },
 ]
