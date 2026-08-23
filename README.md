@@ -23,7 +23,7 @@ npm run build
 2. Enable GitHub Pages from repository settings using the `gh-pages` branch and `/root` folder.
 3. Use the live site URL below once the workflow completes.
 
-**Live site:** https://manojnalmas.github.io/FUTURE_FS_01/
+**Live site:** https://kasojudivaprakash.github.io/personal-portfolio/
 
 > The automated deployment workflow will publish the site after each push. If the site is not active immediately, wait a few minutes for GitHub Pages to finish deploying.
 
