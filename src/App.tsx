@@ -6,6 +6,7 @@ import { HiSparkles } from 'react-icons/hi2'
 import { FiMonitor, FiCode, FiDatabase, FiTool } from 'react-icons/fi'
 import { personalInfo, skills, projects, certifications, achievements, services } from './constants/content'
 import './styles/index.css'
+import profileImage from './assets/profile.jpg'
 
 const App = () => {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -129,7 +130,7 @@ const App = () => {
           <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[1.1fr_0.9fr]">
             <div className="flex justify-center lg:justify-end">
               <img
-                src="/FUTURE_FS_01/profile.jpg"
+                src={profileImage}
                 alt="Kasoju DivyaPrakash"
                 className="h-72 w-72 rounded-full border-4 border-primary/40 object-cover shadow-glow"
               />
